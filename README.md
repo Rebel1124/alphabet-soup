@@ -10,7 +10,7 @@ Both categorical and numerical data for applicants were used in the model, which
 |-----------------------------------------------------|----------------|
 | Original (2 hidden layers run on 50 epochs)         |	   0.73236	   |   
 | Alt Model 1 (3 hidden layers run on 50 epochs)      |	   0.73084	   |   
-| Alt Model 2 (3 hidden layers run on 1000 epochs)    |	   0.73037     |   
+| Alt Model 2 (3 hidden layers run on 100 epochs)     |	   0.73037     |   
 
 
 From the above results we see that the original model produced the highest accuracy score. The alternate models, although being run with more layers and epochs produced comparable accuracy scores but were still not as good as the original model.
